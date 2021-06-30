@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:configuration/utility/logging.dart';
-import 'package:configuration/utility/string_utils.dart';
+import '../utility/logging.dart';
+import '../utility/string_utils.dart';
 
 enum Flavor { DEVELOPMENT, STAGING, RELEASE }
 

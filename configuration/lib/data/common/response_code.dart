@@ -1,4 +1,3 @@
-
 class ResponseCode {
   static const SUCCESS = 200;
   static const FAILED = 500;

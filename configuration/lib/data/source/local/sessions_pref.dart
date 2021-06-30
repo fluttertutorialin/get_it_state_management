@@ -1,6 +1,6 @@
-import 'package:configuration/data/common/pref_key.dart';
-import 'package:configuration/data/common/shared_preferences_manager.dart';
-import 'package:configuration/di/di_module.dart';
+import '../../common/pref_key.dart';
+import '../../common/shared_preferences_manager.dart';
+import '../../../di/di_module.dart';
 
 class SessionPref {
   static void saveSession(

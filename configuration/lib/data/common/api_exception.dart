@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:configuration/data/common/base_response.dart';
-import 'package:configuration/data/common/response_code.dart';
+import 'base_response.dart';
+import 'response_code.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 

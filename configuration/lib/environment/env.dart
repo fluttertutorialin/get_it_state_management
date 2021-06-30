@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'dart:io';
-
-import 'package:configuration/environment/build_config.dart';
-import 'package:configuration/network/http_overrides.dart';
+import 'build_config.dart';
+import '../network/http_overrides.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
