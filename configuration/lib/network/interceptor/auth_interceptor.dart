@@ -1,7 +1,7 @@
 import '../../data/source/local/sessions_pref.dart';
 import 'package:dio/dio.dart';
 
-/// authentication by token
+/// AUTHENTICATION BY TOKEN
 class AuthInterceptor extends Interceptor {
   static const String X_API_KEY = 'x-api-key';
   static const String ACCESS_TOKEN = 'Authorization';

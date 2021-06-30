@@ -14,16 +14,15 @@ class DataFormatInterceptor extends InterceptorsWrapper {
               'code': ResponseCode.NOT_FOUND,
               'message': ResponseCode.NOT_FOUND.message,
               'error': ResponseCode.NOT_FOUND.message,
-              'token': null,
+              'token': null
             }
           : response.data;
 
       handler.reject(DioError(
           requestOptions: response.requestOptions,
           response: Response<BaseResponse?>(
-            data: BaseResponse.fromJson(errorMap),
-            requestOptions: response.requestOptions,
-          ),
+              data: BaseResponse.fromJson(errorMap),
+              requestOptions: response.requestOptions),
           type: DioErrorType.response));
       return;
     }
