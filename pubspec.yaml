@@ -1,0 +1,32 @@
+name: get_it_state_management
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart:
+
+  # Common
+  retrofit:
+  get:
+  cupertino_icons:
+  equatable:
+  pedantic:
+  configuration:
+    path: ./configuration
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
